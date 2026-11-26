@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>class-52</title>
+    <link href="/src/style.css" rel="stylesheet" />
+  </head>
+  <body class="w-full h-screen bg-gray-300 flex justify-center items-center">
+    <div class="w-[480px] bg-white p-4 rounded-md">
+      <h2 class="text-[26px] font-semibold text-center">Todo app</h2>
+
+      <form id="main_form" action="" class="py-4 flex">
+        <input
+          id="create_input"
+          class="w-full border border-gray-400 p-2 rourded-md"
+          type="text"
+          placeholder="Type your task ..."
+        />
+        <button
+          class="p-2 bg-green-600 ml-2 rounded-md cursor-pointer text-white"
+          type="submit"
+        >
+          Add
+        </button>
+      </form>
+      <div id="task-list-parent"></div>
+      <div class="flex items-center justify-between mt-6">
+        <p>You have 4 task</p>
+        <button
+          class="text-danger bg-neutral-primary border border-danger hover:bg-danger hover:text-white focus:ring-4 focus:ring-neutral-tertiary font-medium leading-5 rounded-sm text-xs px-3 py-1.5 focus:outline-none"
+        >
+          Clear al
+        </button>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
